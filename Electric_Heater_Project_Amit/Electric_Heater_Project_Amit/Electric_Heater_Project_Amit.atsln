@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Electric_Heater_Project_Amit", "Electric_Heater_Project_Amit\Electric_Heater_Project_Amit.cproj", "{DCE6C7E3-EE26-4D79-826B-08594B9AD897}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FD90EA40-86DA-445C-9815-DEB874898C8E}"
+	ProjectSection(SolutionItems) = preProject
+		2-MCAL\ADC_interface.h = 2-MCAL\ADC_interface.h
+		2-MCAL\ADC_program.c = 2-MCAL\ADC_program.c
+		1-UTILES\ATMEGA32_REG.h = 1-UTILES\ATMEGA32_REG.h
+		1-UTILES\BIT_MATH.h = 1-UTILES\BIT_MATH.h
+		2-MCAL\DIO_interface.h = 2-MCAL\DIO_interface.h
+		2-MCAL\DIO_program.c = 2-MCAL\DIO_program.c
+		3-HAL\EEPROM_interface.h = 3-HAL\EEPROM_interface.h
+		3-HAL\EEPROM_program.c = 3-HAL\EEPROM_program.c
+		2-MCAL\EXTI_interface.h = 2-MCAL\EXTI_interface.h
+		2-MCAL\EXTI_program.c = 2-MCAL\EXTI_program.c
+		3-HAL\FAN_INTERFACE.h = 3-HAL\FAN_INTERFACE.h
+		3-HAL\FAN_PROGRAM.c = 3-HAL\FAN_PROGRAM.c
+		2-MCAL\GI_interface.h = 2-MCAL\GI_interface.h
+		2-MCAL\GI_program.c = 2-MCAL\GI_program.c
+		3-HAL\HEATING_ELEMENT_INTERFACE.h = 3-HAL\HEATING_ELEMENT_INTERFACE.h
+		3-HAL\HEATING_ELEMENT_PROGRAM.c = 3-HAL\HEATING_ELEMENT_PROGRAM.c
+		2-MCAL\I2C_INTERFACE.h = 2-MCAL\I2C_INTERFACE.h
+		2-MCAL\I2C_PROGRAM.c = 2-MCAL\I2C_PROGRAM.c
+		3-HAL\LM35_INTERFACE.h = 3-HAL\LM35_INTERFACE.h
+		3-HAL\LM35_PROGRAM.c = 3-HAL\LM35_PROGRAM.c
+		4-APP\main.c = 4-APP\main.c
+		4-APP\main.h = 4-APP\main.h
+		3-HAL\SSD_INTERFACE.h = 3-HAL\SSD_INTERFACE.h
+		3-HAL\SSD_PROGRAM.c = 3-HAL\SSD_PROGRAM.c
+		1-UTILES\STD_TYPES.h = 1-UTILES\STD_TYPES.h
+		2-MCAL\TMR_config.h = 2-MCAL\TMR_config.h
+		2-MCAL\TMR_interface.h = 2-MCAL\TMR_interface.h
+		2-MCAL\TMR_program.c = 2-MCAL\TMR_program.c
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.ActiveCfg = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.Build.0 = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.ActiveCfg = Release|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

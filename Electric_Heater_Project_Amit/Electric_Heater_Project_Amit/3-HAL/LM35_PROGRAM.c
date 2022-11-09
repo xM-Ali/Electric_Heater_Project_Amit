@@ -27,6 +27,5 @@ u16 LM35_Read(void)
 	u32 analogValue,temp; 
 	ADC_getDigitalValue(ADC_CHANNEL_1,&digitalValue);
 	analogValue=(digitalValue * 500UL) / 1024;
-	temp=analogValue;
-	return temp;
+	return analogValue;
 }

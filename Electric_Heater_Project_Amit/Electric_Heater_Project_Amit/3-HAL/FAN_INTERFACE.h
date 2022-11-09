@@ -12,7 +12,7 @@
 void Fan_init(void);
 void Fan_SET_ON(void);
 void Fan_SET_OFF(void);
-u8 Fan_Read(void);
+
 
 
 

@@ -31,10 +31,3 @@ void Fan_SET_OFF(void)
 	DIO_setPinValue(DIO_PORTC,DIO_PIN5,DIO_PIN_LOW);
 }
 
-u8 Fan_Read(void)
-{
-	u8 PIN_VALUE,value;
-	DIO_getPinValue(DIO_PORTC,DIO_PIN5,&PIN_VALUE);
-		value=PIN_VALUE;
-		return value;
-} 
